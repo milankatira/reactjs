@@ -1,5 +1,7 @@
 
 import React from 'react'
+import Student from './heading';
+import Heading from './heading';
 //no need to write import react 
 //but for used .react we need to import it 
 
@@ -25,10 +27,10 @@ const App = () => {
    <MyName />
 
      <h1 className="myclass"> Welcome to react</h1>
-
+     <Heading/>
      <MyName />  
       <p>Hello {3+7}</p>
- 
+     <Student/>
    </>
   )
 }

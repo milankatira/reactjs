@@ -6,4 +6,12 @@ function Heading() {
     );
 };
 
-export default Heading;
+// ~class based components 
+class Student {
+    render() {
+      return <h1>Hello Rahul</h1>;
+    }
+  }
+
+export default Student
+//export default Heading;

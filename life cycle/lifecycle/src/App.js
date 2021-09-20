@@ -1,6 +1,7 @@
 import React from 'react';
 import User from './User';
 import Child from './Child'
+
 //TODO constructor
 class constructor extends React.Component {
   constructor() {
@@ -39,6 +40,7 @@ export function App() {
     </div>
   )
 }
+
 //TODO componentdid mount
 export class Mount extends React.Component {
   constructor() {
@@ -107,7 +109,7 @@ export class Supdate extends React.Component {
   }
   shouldComponentUpdate() {
     console.log("should component update", this.state.count)
-    return true
+    return false
   }
 
   render() {
@@ -120,6 +122,7 @@ export class Supdate extends React.Component {
     )
   }
 }
+
 
 //TODO componentwillunmount
 

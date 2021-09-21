@@ -16,6 +16,7 @@ class ClassCounterTwo extends Component {
       }
     })
   }
+  
 
   render() {
     return (

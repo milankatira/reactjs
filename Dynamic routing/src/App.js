@@ -15,7 +15,12 @@ function App() {
       <h1>React Dynamic Routing</h1>
       {
         user.map((item)=>
-      <div><Link to={"/user/"+item.id+"/"+item.name}>{item.name}</Link></div>)
+      <div>
+      
+      <Link to={"/user/"+item.id+"/"+item.name}>{item.name}
+      
+      </Link></div>
+      )
       }
       <Route path="/user/:id/:name" ><User /></Route>
       </Router>

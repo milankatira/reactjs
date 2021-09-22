@@ -7,25 +7,35 @@ import Form from './Form';
 import Array from './Array';
 import Blist from './Blist';
 import Narray from './Narray';
+import Hoc from './Hoc';
+import Pure from './Purecomponents';
+import Controlled from './Controlled';
+import Uncontrolled from './Uncontrolled';
+
+
 //functional components 
 function App() {
   return (
     <div className="App">
-      <Child name="components" />
       <h1>WELCOME TO REACT</h1>
-      <Class />
-      <Classed name="classed.props" />
-      <Inputform/>
+      {/* <Class /> */}
+      {/* <Child name="components" /> */}
+      {/* <Hoc/> */}
+      {/* <Pure/> */}
+      {/* <Controlled/> */}
+      <Uncontrolled/>
+      {/* <Classed name="classed.props" /> */}
+      {/* <Inputform/>
       <Toggle/>
       <Form/>
       <Array/>
       <Blist/>
-      <Narray/>
+      <Narray/> */}
     </div>
   );
 }
 
-//props in functional components
+//TODO props in functional components
 const Child = (props) => {
   return (
     <div>
@@ -33,6 +43,17 @@ const Child = (props) => {
     </div>
   )
 }
+
+//TODO 
+
+
+
+
+
+
+
+
+
 
 //class based component
 
@@ -43,6 +64,7 @@ class Class extends React.Component {
     )
   }
 }
+
 //props in classs based component
 class Classed extends React.Component {
   render() {
